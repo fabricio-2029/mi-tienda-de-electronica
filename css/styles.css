@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 1.5 rem;
   padding: 0;
   box-sizing: border-box;
 }
@@ -190,4 +190,15 @@ footer .footer-list {
   footer {
     flex-direction: column;
   }
+} #revisar todo el css
+/*nuevo carrito*/
+  
+.mensaje.carrito-vacio {
+  color: #f2c66d;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.acciones-carrito {
+  margin-top: 2rem;
 }

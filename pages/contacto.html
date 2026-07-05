@@ -9,6 +9,7 @@
     />
     <link rel="stylesheet" href="../css/styles.css" />
     <title>Tienda de electronica</title>
+     
   </head>
   <body>
     <header>
@@ -21,6 +22,8 @@
           </li>
           <li>
             <a href="./contacto.html">Contacto</a>
+            <a href="./carrito.html" class="carrito-IconoCarrito"></a>
+            <span id="contador-carrito" class="badge bg-danger ">0</span>
           </li>
         </ul>
       </nav>
@@ -38,7 +41,7 @@
           <textarea id="mensaje" name="message"></textarea>
         </div>
         <!-- your other form fields go here -->
-        <button class="btn bg-secondary text-dark" type="submit">Send</button>
+        <button class="btn bg-secondary text-dark" type="submit">Enviar</button>
       </form>
     </main>
     <footer>
@@ -50,5 +53,6 @@
         </ul>
       </nav>
     </footer>
+    <script type="module" src="../js/contacto.js"></script>
   </body>
 </html>
